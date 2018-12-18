@@ -1,7 +1,7 @@
 ---
 title: Loops
 category: "code"
-cover: everyone-can-code.jpg
+cover: loops-js.jpg
 author: getter hiss
 ---
 
@@ -17,7 +17,7 @@ I am sure you agree, that JavaScript is full of fun surprises in the ways that m
 
 While first introduced JavaScript, everyone goes through learning the classic `for` loop to iterate over an object -
 
-```
+```js
 let arr = ['Mon', 'Tues', 'Fri'];
 let weekdays = [];
 
@@ -41,7 +41,7 @@ ECMAScript 2015 made Javascript more modern and intuitive to use. `For` loops tu
 `For..of` can be used to iterate over an Array or String ([as well as Map, Set, Argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)).
 
 
-```
+```js
 let word = 'FooBar'
 let newWord = '';
 
@@ -55,7 +55,7 @@ return newWord;
 
 `For..in` can be used to iterate over Objects. As you already know, objects consist of Key-Value pairs, which make them different from Arrays (only values), and therefore should be handled differently.
 
-```
+```js
 for (let key in Object) {
 	statement
 };

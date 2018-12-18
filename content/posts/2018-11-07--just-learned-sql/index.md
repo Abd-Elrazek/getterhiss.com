@@ -27,14 +27,19 @@ Yeah, we all know about the name. Everyone talks about it when they first here i
 
 Here are some of my notes for people to get started. You can also check out my [github commit](https://github.com/what3xyz/api/blob/f56fa6979b44e42812d9f2d89cba578e2234c6f8/package.json) with these commands in action.
 
-Once you have [cockroachDB installed](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html), you can run commands from terminal: 
+Once you have [cockroachDB installed](https://www.cockroachlabs.com/docs/stable/install-cockroachdb.html), you can run commands from the built in SQL client: 
 
-    - `cockroach sql --insecure`
-    - `SHOW DATABASES;`
-    - `CREATE DATABASE what3xyz;`
-    - `USE what3xyz;`
-    - `SHOW TABLES;`
-    - `SHOW COLUMNS FROM ideas;`
-    - `SELECT * FROM ideas;`
-    - `SELECT id, idea, tags, uid, created, modified FROM ideas;`
-    - `SELECT * FROM ideas WHERE active=true ORDER BY created DESC LIMIT 1 OFFSET 1;`
+`cockroach sql --insecure`
+
+You can run the following commands:
+
+```sql
+SHOW DATABASES;
+CREATE DATABASE what3xyz;
+USE what3xyz;
+SHOW TABLES;
+SHOW COLUMNS FROM ideas;
+SELECT * FROM ideas;
+SELECT id, idea, tags, uid, created, modified FROM ideas;
+SELECT * FROM ideas WHERE active=true ORDER BY created DESC LIMIT 1 OFFSET 1;
+```
