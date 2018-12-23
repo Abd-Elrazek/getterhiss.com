@@ -21,3 +21,16 @@ import colors from "./colors";
 
 Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
 
+```js
+// Emoji's in code example from Dan:
+// https://overreacted.io/how-does-react-tell-a-class-from-a-function/
+
+// Just a function
+function Person(name) {
+  this.name = name;
+}
+
+var fred = new Person('Fred'); // ✅ Person {name: 'Fred'}
+var george = Person('George'); // 🔴 Won’t work
+
+```
