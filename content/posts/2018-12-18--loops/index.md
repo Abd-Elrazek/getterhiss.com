@@ -65,6 +65,6 @@ for (let key in Object) {
 
 **`For..in` catches the keys, `For..of` catches the values!**
 
-All in all, so much easier to remember and use for classic iteration statements. How great is that!
+All in all, so much easier to remember and use than classic iteration statements. How great is that!
 
 For more in-depth and technical help, read [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
