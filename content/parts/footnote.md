@@ -3,10 +3,10 @@ title: footnote
 ---
 
 * find me
-* [twitter](https://twitter.com/getterhiss)
-* [linkedin](https://linkedin.com/in/getterhiss)
-* [github](https://github.com/getterhiss)
-* [stackoverflow](https://stackoverflow.com/cv/getterhiss)
-* [hackerrank](https://hackerrank.com/getterhiss)
+* [Twitter](https://twitter.com/getterhiss)
+* [LinkedIn](https://linkedin.com/in/getterhiss)
+* [GitHub](https://github.com/getterhiss)
+* [Stackoverflow](https://stackoverflow.com/cv/getterhiss)
+* [HackerRank](https://hackerrank.com/getterhiss)
 * powered by
 * [GatsbyJS](https://www.gatsbyjs.org/)
