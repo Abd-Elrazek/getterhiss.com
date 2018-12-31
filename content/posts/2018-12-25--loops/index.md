@@ -1,5 +1,5 @@
 ---
-title: Loops
+title: Learning Algorithms & the ES6 `FOR` loop
 category: "code"
 cover: loops-js.jpg
 author: getter hiss
