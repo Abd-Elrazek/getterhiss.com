@@ -57,14 +57,15 @@
     "gatsby"
   ],
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build; npm run scrub-react-helmet",
     "develop": "gatsby develop",
     "devhost": "gatsby develop --host 192.168.0.112",
     "format": "prettier --write 'src/**/*.js'",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
     "stylelint": "stylelint src/**/*.js",
-    "app-icons": "sh ./scripts/generate-app-icons.sh"
+    "app-icons": "sh ./scripts/generate-app-icons.sh",
+    "scrub-react-helmet": "grep -rl ' data-react-helmet=\"true\"' ./public | xargs sed -i '' 's/ data-react-helmet=\"true\"//g'"
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
