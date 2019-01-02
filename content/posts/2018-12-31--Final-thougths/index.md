@@ -1,6 +1,6 @@
 ---
 title: Final thoughts to 2018 - questions to ask yourself before you say 'Goodbye'
-category: ""
+category: "thoughts"
 cover: final-thoughts.jpg
 author: getter hiss
 ---
